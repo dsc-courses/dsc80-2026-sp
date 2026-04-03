@@ -7,7 +7,7 @@ dependencies:
   - beautifulsoup4=4.12.3
   - docopt=0.6.2
   - ipywidgets=8.1.5
-  - ipython=7.34.0
+  - ipython
   - jupyterlab=4.2.5
   - jupyterlab_server=2.27.3
   - jupyterlab_widgets=3.0.13
@@ -38,5 +38,4 @@ dependencies:
   - pyogrio=0.9.0
   - pip:
     - "setuptools<82"
-    - "ipython>=7.0,<8.0"
     - otter-grader==3.1.4
