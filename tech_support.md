@@ -31,7 +31,7 @@ There has been a lot written about how to set up a Python environment, so we won
 
 ## Environments and Package Managers
 
-For this class, the software you'll need includes Python 3.12, a few specific Python packages, Git, and a text editor.
+For this class, the software you'll need includes Python 3.10, a few specific Python packages, Git, and a text editor.
 
 Gradescope has an **environment** which it uses to autograde your work. You can think of an environment as a combination of a Python version and _specific_ versions of Python packages that is isolated from the rest of your computer. In practice, developers create different environments for different projects, so that they can use different versions of packages in different projects.
 
@@ -79,9 +79,9 @@ The way to do this depends on whether you're on a Unix-like platform (macOS or L
     conda init
     ```
 
-### Step 2: Download [`environment.yml`](https://github.com/dsc-courses/dsc80-2026-sp/blob/gh-pages/resources/environment.yml)
+### Step 2: Download [`environment.yml`](https://github.com/dsc-courses/dsc80-2026-sp/blob/main/resources/environment.yml)
 
-[This file](https://github.com/dsc-courses/dsc80-2026-sp/blob/gh-pages/resources/environment.yml) contains the necessary details to configure your environment. If you take a look at it, you'll see that it contains a specific Python version (`python=3.12`) along with specific package versions (like `pandas==2.2.3` and `requests==2.32.3`, for example).
+[This file](https://github.com/dsc-courses/dsc80-2026-sp/blob/main/resources/environment.yml) contains the necessary details to configure your environment. If you take a look at it, you'll see that it contains a specific Python version (`python=3.10`) along with specific package versions (like `pandas==2.2.3` and `requests==2.32.3`, for example).
 
 ### Step 3: Create a new `conda` environment
 
