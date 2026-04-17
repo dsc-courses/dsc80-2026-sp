@@ -16,6 +16,7 @@ days:
     type: lab
     title: DataFrame Manipulation
     reading: ''
+    blank: https://github.com/dsc-courses/dsc80-2026-sp/blob/main/labs/lab03/lab.ipynb
 - date: '2026-04-23'
   events:
   - name: LEC 8
@@ -30,4 +31,5 @@ days:
     type: proj
     title: Project 2 checkpoint
     reading: ''
+    blank: https://github.com/dsc-courses/dsc80-2026-sp/blob/main/projects/proj02/project.ipynb
 ---

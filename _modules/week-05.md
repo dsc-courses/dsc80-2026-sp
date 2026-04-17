@@ -30,4 +30,5 @@ days:
     type: proj
     title: Project 2
     reading: ''
+    blank: https://github.com/dsc-courses/dsc80-2026-sp/blob/main/projects/proj02/project.ipynb
 ---
