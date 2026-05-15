@@ -25,7 +25,7 @@ You can read the zipped files directly into pandas without extracting them first
 `pd.read_csv(filepath, compression='gzip')`
 
 | Column | Description |
-|--------|-------------|
+|:---|:---|
 | `uuid` | Anonymized ID of the user (you can extract this from the filename) |
 | `timestamp` | Unix time of the recorded 1-minute window |
 | `label:SLEEPING` | Indicator (0, 1, or NaN) of whether the user was sleeping |

@@ -15,36 +15,38 @@ There are two files:
 
 `review-Hawaii_10.json.gz`
 [Link](https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/review-Hawaii_10.json.gz)
+
 | Column | Description |
-|--------|-------------|
-| user_id | ID of the reviewer |
-| name | name of the reviewer |
-| time | time of the review (unix time) |
-| rating | rating of the business |
-| text | text of the review |
-| pics | pictures of the review |
-| resp | business response to the review including unix time and text of the response |
-| gmap_id | ID of the business |
+|:---|:---|
+| `user_id` | ID of the reviewer |
+| `name` | name of the reviewer |
+| `time` | time of the review (unix time) |
+| `rating` | rating of the business |
+| `text` | text of the review |
+| `pics` | pictures of the review |
+| `resp` | business response to the review including unix time and text of the response |
+| `gmap_id` | ID of the business |
 
 `meta-Hawaii.json.gz` 
 [Link](https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/meta-Hawaii.json.gz)
+
 | Column | Description |
-|--------|-------------|
-| name | name of the business |
-| address | address of the business |
-| gmap_id | ID of the business |
-| description | description of the business |
-| latitude | latitude of the business |
-| longitude | longitude of the business |
-| category | category of the business |
-| avg_rating | average rating of the business |
-| num_of_reviews | number of reviews |
-| price | price of the business |
-| hours | open hours |
-| MISC | MISC information |
-| state | the current status of the business (e.g., permanently closed) |
-| relative_results | relative businesses recommended by Google |
-| url | URL of the business |
+|:---|:---|
+| `name` | name of the business |
+| `address` | address of the business |
+| `gmap_id` | ID of the business |
+| `description` | description of the business |
+| `latitude` | latitude of the business |
+| `longitude` | longitude of the business |
+| `category` | category of the business |
+| `avg_rating` | average rating of the business |
+| `num_of_reviews` | number of reviews |
+| `price` | price of the business |
+| `hours` | open hours |
+| `MISC` | MISC information |
+| `state` | the current status of the business (e.g., permanently closed) |
+| `relative_results` | relative businesses recommended by Google |
+| `url` | URL of the business |
 
 You can read more about the datasets [here](https://mcauleylab.ucsd.edu:8443/public_datasets/gdrive/googlelocal/).  
 Note that these datasets are zipped (`.gzip`) and are `.json`s instead of `.csv` files. It is recommended to unzip them manually first, and then use `pd.read_json` to turn it into a pandas DataFrame. You will also have to add the argument `lines=True` since the data is one json object per line. It is also recommended to use `engine='pyarrow'` to speed up reading.  
