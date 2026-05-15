@@ -23,15 +23,15 @@ nav_order: 7
 
 Welcome to Final Project, the final assignment of the quarter! 👋
 
-This project aims to be a culmination of everything you've learned this quarter. In the project, you will conduct an open-ended investigation into one of the three datasets (Recipes and Ratings 🍽, League of Legends ⌨️, or Power Outages 🔋). **Specifically, you'll draw several visualizations to help understand the distributions of key variables, assess the missingness mechanisms of columns with missing values, test a hypotheses about the data, and finally, build and improve a predictive model.** This project will be entirely manually graded by us – that's right, no autograders!
+This project aims to be a culmination of everything you've learned this quarter. In the project, you will conduct an open-ended investigation into one of the six datasets below. **Specifically, you'll draw several visualizations to help understand the distributions of key variables, assess the missingness mechanisms of columns with missing values, test a hypotheses about the data, and finally, build and improve a predictive model.** This project will be entirely manually graded by us – that's right, no autograders!
 
 Final Project worth 10% in your overall grade, which means it's worth double what previous projects were worth. There are also two checkpoints, each worth 1%. 
 
 As your final deliverables, you'll submit two things to us: a **public-facing website** as well as a **PDF of your Jupyter Notebook**. We encourage you to build something you are proud of as this will give you something concrete to put on your resume and show to potential employers!
 
 {: .green }
-> **Final Project is due on Friday, June 6th at 11:59PM. This is a hard deadline; you may NOT use the extension on this project.** This is because we need to start grading projects right when you turn them in, so that there is enough time for you to make regrade requests before we submit grades to campus. <br><br>
-> The Final Project does also have two checkpoints, which is due on **Friday, May 23rd** and **Friday, May 30th**. The Final Project Checkpoints are structured differently than other project checkpoints; rather than having you submit any code, you'll answer a few questions about your progress on the project. More details are in the [Checkpoint Submission](#submission-and-rubric) towards the bottom of this page. You can submit the [checkpoint 1](https://www.gradescope.com/courses/941090/assignments/5820453/) and [checkpoint 2](https://www.gradescope.com/courses/941090/assignments/5820459/) on Gradescope; make sure to tag your partner if you have one.
+> **Final Project is due on Friday, June 5th at 11:59PM. This is a hard deadline; you may NOT use the extension on this project.** This is because we need to start grading projects right when you turn them in, so that there is enough time for you to make regrade requests before we submit grades to campus. <br><br>
+> The Final Project does also have two checkpoints, which is due on **Friday, May 22nd** and **Friday, May 29th**. The Final Project Checkpoints are structured differently than other project checkpoints; rather than having you submit any code, you'll answer a few questions about your progress on the project. More details are in the [Checkpoint Submission](#submission-and-rubric) towards the bottom of this page. You can submit the [checkpoint 1](https://www.gradescope.com/courses/1289847/assignments/5820453/) and [checkpoint 2](https://www.gradescope.com/courses/1289847/assignments/5820459/) on Gradescope; make sure to tag your partner if you have one.
 
 The project is broken into two parts:
 
@@ -50,9 +50,20 @@ The project is broken into two parts:
 
 ## Choosing a Dataset
 
-In this project, you will perform an open-ended investigation into a **single dataset**. You must choose **one** of the following three datasets.
+### **Business Analytics & Econometrics**
+[Recipes and Ratings 🍽️](recipes-and-ratings){: .btn } &nbsp;&nbsp; [Hawaii Google Maps Reviews 🏝️](google_review_desc){: .btn }
 
-[Recipes and Ratings 🍽](recipes-and-ratings){: .btn } &nbsp;&nbsp; [League of Legends ⌨️](league-of-legends){: .btn } &nbsp;&nbsp; [Power Outages 🔋](power-outages){: .btn }
+### **Music & Audio**
+[Spotify Music Tracks 🎵](project4-music){: .btn }
+
+### **Social Sciences**
+[League of Legends ⌨️](league-of-legends){: .btn }
+
+### **Science & Infrastructure**
+[Power Outages 🔋](power-outages){: .btn }
+
+### **Wearable Computing & Affective Physiology**
+[UCSD ExtraSensory Dataset 📱](wearable){: .btn }
 
 The dataset description pages linked above each have three sections:
 - **Getting the Data**: Describes how to access the data and, in some cases, what various features mean. (In general, you're going to have to understand what your data means on your own!)
@@ -78,7 +89,7 @@ Before choosing a dataset, read the rest of this page to see what's required of 
 Before beginning your analysis, you'll need to set up a few things.
 
 1. Pull the latest version of the [`dsc80-2026-sp`](https://github.com/dsc-courses/dsc80-2026-sp/) repo. Within the `projects/project04` folder, there is a `template.ipynb` notebook that you will use as a template for the project. If you delete the file or want another copy of the template, you can re-download it from [here](https://github.com/dsc-courses/dsc80-2026-sp/blob/main/projects/project04/template.ipynb). **This is where your analysis will live; you will submit this entire notebook to us.**
-1. Select **one** of the three [datasets mentioned above](#choosing-a-dataset), download it, and load it into your template notebook.
+1. Select **one** of the six [datasets mentioned above](#choosing-a-dataset), download it, and load it into your template notebook.
 
 Once you have your dataset loaded in your notebook, it's time for you to find meaning in the real-world data you've collected! Follow the steps below.
 
@@ -275,7 +286,7 @@ As mentioned at the top of this page, this project has **two checkpoints**, each
 
 ### Checkpoint 1 Submission
 
-The first checkpoint is due on **Friday, May 23rd**. You can submit the checkpoint [here](https://www.gradescope.com/courses/941090/assignments/5820453) on Gradescope.
+The first checkpoint is due on **Friday, May 22nd**. You can submit the checkpoint [here](https://www.gradescope.com/courses/1289847/assignments/5820453) on Gradescope.
 
 The checkpoint 1 assignment is worth 20 points, and asks you to answer the following questions:
 
@@ -286,7 +297,7 @@ The checkpoint 1 assignment is worth 20 points, and asks you to answer the follo
 
 ### Checkpoint 2 Submission
 
-The second one is due on **Friday, May 30th**. You can submit the checkpoint [here](https://www.gradescope.com/courses/941090/assignments/5820459) on Gradescope.
+The second one is due on **Friday, May 29th**. You can submit the checkpoint [here](https://www.gradescope.com/courses/1289847/assignments/5820459) on Gradescope.
 
 The checkpoint 2 assignment is worth 20 points, and asks you to answer the following questions:
 

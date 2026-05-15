@@ -2,7 +2,7 @@
 layout: page
 title: League of Legends ⌨️
 description: Description of the League of Legends dataset in Project 4.
-parent: 'Project 4: The Data Science Lifecycle 📊'
+parent: 📊 Final Project
 nav_exclude: true
 ---
 

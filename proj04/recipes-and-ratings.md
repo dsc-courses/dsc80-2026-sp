@@ -2,7 +2,7 @@
 layout: page
 title: Recipes and Ratings 🍽️
 description: Description of the recipes and ratings dataset in Project 4.
-parent: 'Project 4: The Data Science Lifecycle 📊'
+parent: 📊 Final Project
 nav_exclude: true
 ---
 

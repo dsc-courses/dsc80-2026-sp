@@ -2,7 +2,7 @@
 layout: page
 title: Power Outages 🔋
 description: Description of the power outages dataset in Project 4.
-parent: 'Project 4: The Data Science Lifecycle 📊'
+parent: 📊 Final Project
 nav_exclude: true
 ---
 
