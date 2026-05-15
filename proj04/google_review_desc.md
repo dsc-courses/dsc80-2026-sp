@@ -7,7 +7,7 @@ nav_exclude: true
 ---
 
 # Hawaii Google Maps Reviews 🏝️
-This dataset contains Google Maps reviews of various locations in Hawaii. It was originally scraped and used by the authors of these papers: https://aclanthology.org/2022.acl-long.426.pdf, https://arxiv.org/pdf/2207.00422. The full dataset is quite long, so we will only be using the 10-core one.
+This dataset contains Google Maps reviews of various locations in Hawaii. It was originally scraped and used by the authors of these papers: <https://aclanthology.org/2022.acl-long.426.pdf>, <https://arxiv.org/pdf/2207.00422>. The full dataset is quite long, so we will only be using the 10-core one.
 
 
 ## Getting the Data
@@ -15,8 +15,9 @@ There are two files:
 
 `review-Hawaii_10.json.gz`
 [Link](https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/review-Hawaii_10.json.gz)
+
 | Column | Description |
-|--------|-------------|
+|---|---|
 | user_id | ID of the reviewer |
 | name | name of the reviewer |
 | time | time of the review (unix time) |
@@ -28,8 +29,9 @@ There are two files:
 
 `meta-Hawaii.json.gz` 
 [Link](https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/meta-Hawaii.json.gz)
+
 | Column | Description |
-|--------|-------------|
+|---|---|
 | name | name of the business |
 | address | address of the business |
 | gmap_id | ID of the business |
