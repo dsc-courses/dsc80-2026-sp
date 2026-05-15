@@ -7,7 +7,7 @@ nav_exclude: true
 ---
 
 # Hawaii Google Maps Reviews 🏝️
-This dataset contains Google Maps reviews of various locations in Hawaii. It was originally scraped and used by the authors of these papers: https://aclanthology.org/2022.acl-long.426.pdf, https://arxiv.org/pdf/2207.00422. The full dataset is quite long, so we will only be using the 10-core one.
+This dataset contains Google Maps reviews of various locations in Hawaii. It was originally scraped and used by the authors of these papers: <https://aclanthology.org/2022.acl-long.426.pdf>, <https://arxiv.org/pdf/2207.00422>. The full dataset is quite long, so we will only be using the 10-core one.
 
 
 ## Getting the Data
