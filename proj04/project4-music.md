@@ -16,11 +16,12 @@ This dataset contains audio and metadata features for 114,000 tracks spanning 11
 
 ## Getting the Data
 
-Download the data [here](#). You'll find two files:
-
-- `music_tracks.csv` contains one row per track with audio features, metadata, and a genre label.
-- `artists.csv` contains one row per artist with follower counts, artist-level popularity, and genre tags.
-
+Download the data [here](https://drive.google.com/drive/folders/12YLD_cnfUL_aQjhGifckIcCIrWtt6D7H?usp=share_link). You'll find:
+  
+  - `music_tracks.csv`: contains one row per track with audio features, metadata, and a genre label.
+  - `artists.csv`: contains one row per artist with follower counts, artist-level popularity, and genre tags.
+  - `audio_exploration.ipynb`: a starter notebook that walks through how audio features are extracted
+  from raw audio files.
 
 ---
 
